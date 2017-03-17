@@ -1,0 +1,161 @@
+@import url("//hello.myfonts.net/count/32b095");
+@font-face {font-family: 'Gilroy-Bold';src: url('webfonts/32B095_0_0.eot');src: url('webfonts/32B095_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/32B095_0_0.woff2') format('woff2'),url('webfonts/32B095_0_0.woff') format('woff'),url('webfonts/32B095_0_0.ttf') format('truetype'),url('webfonts/32B095_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'Gilroy-Heavy';src: url('webfonts/32B095_1_0.eot');src: url('webfonts/32B095_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/32B095_1_0.woff2') format('woff2'),url('webfonts/32B095_1_0.woff') format('woff'),url('webfonts/32B095_1_0.ttf') format('truetype'),url('webfonts/32B095_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'Gilroy-Regular';src: url('webfonts/32B095_2_0.eot');src: url('webfonts/32B095_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/32B095_2_0.woff2') format('woff2'),url('webfonts/32B095_2_0.woff') format('woff'),url('webfonts/32B095_2_0.ttf') format('truetype'),url('webfonts/32B095_2_0.svg#wf') format('svg');}
+
+
+/*.buttons*/
+
+button,
+input[type=submit],
+.button {
+  font-family: Gilroy-Bold;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border-radius: 100px;
+  border: 2px solid #f9a18b !important;
+  width: 188px;
+  padding: 12px 56px;
+  margin: 0px;
+
+  background-color: transparent;
+  color: #F9A18B;
+  -moz-apperance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+
+/* Styles the subscribe button
+#mc_embed_signup .button {
+  border-radius: 100px;
+  border: 2px solid #f9a18b;
+  color: #F9A18B;
+  background-color: #1E1F20;
+  margin-bottom: 38px;
+  width: 160px;
+}*/
+
+/*
+.subscribe #mc-embedded-subscribe.button {
+  border-radius: 100px;
+  border: 2px solid #f9a18b;
+  color: #F9A18B;
+  background-color: #1E1F20;
+  margin-bottom: 38px;
+  width: 160px;
+}
+
+.subscribe #mc-embedded-subscribe.button:hover {
+    border-color: #2aa3be;
+    background: #fff;
+    color: #01627e
+}
+*/
+
+a {
+  text-decoration: none;
+  color: #F9A18B;
+  letter-spacing: 1px;
+}
+
+a .button {
+  font-family: "futura-pt",sans-serif !important;
+  font-style: normal!important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+/*.typography*/
+
+h1, h4, a{
+  font-family: Gilroy-Bold, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+
+}
+h1 {
+  font-size: 4.5em;
+  line-height: 60px;
+  color: #FFFFFF;
+  letter-spacing: -0.6px;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 7.5em;
+    letter-spacing: -2px;
+    line-height: 100px;
+    margin: 46px auto;
+  }
+}
+
+
+h4 {
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  color: #F9A18B;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+p {
+  font-family: Gilroy-Regular;
+	font-weight: normal;
+	font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+.beta-sign {
+  color: #ccc;
+}
+
+#mc-embedded-subscribe {
+  border: 2px solid #f9a18b;
+}
+
+/*.forms*/
+
+input{
+  width: 80%;
+  height: 48px;
+  appearance: none;
+  background: #FFFFFF;
+  border: 1px solid #EDF0F2;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  input {
+    width: 240px;
+  }
+}
+
+/*responsive*/
+.rwd-break{
+  display: block;
+}
+
+.btn-display{
+  display: block;
+  margin: 65px auto;
+}
+@media (min-width: 600px) {
+  .btn-display {
+    display: none;
+  }
+}
+
+/*center*/
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
